@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>clculator task</title>
+    <link rel="stylesheet" href="../css/calculatortask.css" />
+  </head>
+  <body>
+    <div id="parent">
+      <div id="child1">
+        <br>
+        <br>
+        <br>
+        Num1 <input type="number" name="" id="num1"  class="ip"/>
+        <br />
+        <br />
+        Num2 <input type="number" name="" id="num2" class="ip" />
+
+        <br />
+        <br />
+        <button id="add" class="button" value="adds">add</button>
+        <br />
+        <br />
+        <button id="sub" class="button" value="subs">sub</button>
+        <br />
+        <br />
+        <button id="divi"  class="button" value="divis">division</button>
+        <br />
+        <br />
+      </div>
+      <div id="child2">
+        <div id="son">  
+          <h1>calculation over <span id="s2">:</span><span id="s1">)</span></h1>
+          <button id="btn" onclick="refresh()">restart calculation</button>
+      
+            <p id="para1"></p>
+            <p id="para2"></p>
+            <p id="para3"></p>
+       
+        </div>
+      </div>
+    </div>
+    <script src="../js/calculatortask.js"></script>
+  </body>
+</html>
